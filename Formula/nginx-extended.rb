@@ -1,8 +1,8 @@
 class NginxExtended < Formula
   desc "HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server"
   homepage "https://nginx.org/"
-  url "https://nginx.org/download/nginx-1.14.2.tar.gz"
-  sha256 "002d9f6154e331886a2dd4e6065863c9c1cf8291ae97a1255308572c02be9797"
+  url "https://nginx.org/download/nginx-1.16.0.tar.gz"
+  sha256 "4fd376bad78797e7f18094a00f0f1088259326436b537eb5af69b01be2ca1345"
   head "https://hg.nginx.org/nginx/", :using => :hg
 
   conflicts_with "nginx", :because => "nginx-extended symlink with the name for compatibility with nginx"
